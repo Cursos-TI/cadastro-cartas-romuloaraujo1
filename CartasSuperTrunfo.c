@@ -7,14 +7,15 @@
 int main() {
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
+  //Variáveis criadas e inicializadas para valores conhecidos pelo desenvolvedor
 
-  char estado1, estado2;
-  char cod_carta1[4], cod_carta2 [4];
-  char nome_cidade1[50], nome_cidade2 [50];
-  int populacao1, populacao2;
-  float area1, area2;
-  float pib1, pib2;
-  int num_pt_turisco1, num_pt_turisco2;
+  char estado1 = "", estado2 = "";
+  char cod_carta1[4] = "", cod_carta2 [4] = "";
+  char nome_cidade1[50] = "", nome_cidade2 [50] = "";
+  int populacao1 = 0, populacao2 = 0;
+  float area1 = 0.0, area2 =0.0;
+  float pib1 = 0.0, pib2 = 0.0;
+  int num_pt_turisco1 = 0, num_pt_turisco2 = 0;
 
   // Área para entrada de dados
 
